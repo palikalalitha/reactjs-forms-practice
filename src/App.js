@@ -1,13 +1,11 @@
-
-import './App.css';
-import Form from './Form';
+import React from 'react';
+import MultiStepForm from './MultiStepForm';
 
 function App() {
   return (
- <div className="App">
-    <h1>My Form</h1>
-    <Form />
-  </div>
+    <div className="container mx-auto p-4">
+      <MultiStepForm />
+    </div>
   );
 }
 
