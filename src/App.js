@@ -1,10 +1,10 @@
 import React from 'react';
-import MultiStepForm from './MultiStepForm';
+import Forms from './Forms';
 
 function App() {
   return (
     <div className="container mx-auto p-4">
-      <MultiStepForm />
+      <Forms />
     </div>
   );
 }
